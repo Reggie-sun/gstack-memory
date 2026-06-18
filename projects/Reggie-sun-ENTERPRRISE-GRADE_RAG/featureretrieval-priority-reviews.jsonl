@@ -1,0 +1,54 @@
+{"skill":"plan-ceo-review","timestamp":"2026-04-11T09:30:00Z","status":"clean","unresolved":0,"critical_gaps":0,"mode":"HOLD_SCOPE","scope_proposed":5,"scope_accepted":0,"scope_deferred":3,"commit":"a39794f4","via":"autoplan"}
+{"skill":"plan-eng-review","timestamp":"2026-04-11T09:45:00Z","status":"clean","unresolved":0,"critical_gaps":0,"issues_found":0,"mode":"reverify","commit":"a39794f4","via":"autoplan"}
+{"skill":"plan-devex-review","timestamp":"2026-04-11T09:55:00Z","status":"clean","initial_score":7,"overall_score":8,"product_type":"internal-api","tthw_current":"30min","tthw_target":"15min","mode":"DX_POLISH","persona":"backend-engineer","competitive_tier":"internal","unresolved":0,"commit":"a39794f4","via":"autoplan"}
+{
+  "skill":"review",
+  "timestamp":"2026-04-12T05:45:01Z",
+  "status":"issues_found",
+  "issues_found":15,
+  "critical":7,
+  "informational":8,
+  "quality_score":3.0,
+  "specialists":{
+    "testing":{"dispatched":false,"reason":"rate_limited"},
+    "maintainability":{"dispatched":true,"findings":10,"critical":0,"informational":10},
+    "security":{"dispatched":false,"reason":"rate_limited"},
+    "performance":{"dispatched":false,"reason":"rate_limited"},
+    "api-contract":{"dispatched":true,"findings":10,"critical":5,"informational":5}
+  },
+  "findings":[
+    {"fingerprint":"rerankers/client.py:25:trust-env","severity":"CRITICAL","action":"skipped"},
+    {"fingerprint":"rerankers/client.py:21:thread-safety","severity":"CRITICAL","action":"skipped"},
+    {"fingerprint":"chat.py:194:auth-required","severity":"CRITICAL","action":"skipped"},
+    {"fingerprint":"retrieval.py:578:auth-required","severity":"CRITICAL","action":"skipped"},
+    {"fingerprint":"documents.py:293:auth-required","severity":"CRITICAL","action":"skipped"},
+    {"fingerprint":"retrieval_service.py:294:ocr-double","severity":"CRITICAL","action":"skipped"},
+    {"fingerprint":"health.py:91:required-field","severity":"CRITICAL","action":"skipped"},
+    {"fingerprint":"retrieval_service.py:930:magic-numbers","severity":"INFORMATIONAL","action":"skipped"},
+    {"fingerprint":"pre_stock_screening.py:357:regex-in-function","severity":"INFORMATIONAL","action":"skipped"},
+    {"fingerprint":"retrieval_service.py:diagnostic-scatter","severity":"INFORMATIONAL","action":"skipped"},
+    {"fingerprint":"retrieval_service.py:method-length","severity":"INFORMATIONAL","action":"skipped"},
+    {"fingerprint":"retrieval_service.py:quality-flags","severity":"INFORMATIONAL","action":"skipped"},
+    {"fingerprint":"retrieval_scope_policy.py:65:n-plus-1","severity":"INFORMATIONAL","action":"skipped"},
+    {"fingerprint":"request_trace.py:9:stage-names","severity":"INFORMATIONAL","action":"skipped"},
+    {"fingerprint":"retrieval_service.py:filtered-candidates-payload","severity":"INFORMATIONAL","action":"skipped"}
+  ],
+  "commit":"03527de2"
+}
+{"skill": "plan-eng-review", "timestamp": "2026-04-14T07:25:58Z", "status": "clean", "unresolved": 0, "critical_gaps": 0, "issues_found": 5, "mode": "SCOPE_REDUCED", "commit": "dba4ed02"}
+{"skill":"plan-design-review","timestamp":"2026-04-16T07:44:08Z","status":"clean","initial_score":6,"overall_score":9,"unresolved":0,"decisions_made":6,"commit":"4af79208"}
+{"skill":"plan-design-review","timestamp":"2026-04-17T01:05:04Z","status":"clean","initial_score":3,"overall_score":9,"unresolved":0,"decisions_made":5,"commit":"e78622f7"}
+{"skill":"plan-eng-review","timestamp":"2026-04-17T01:25:28Z","status":"issues_open","unresolved":0,"critical_gaps":1,"issues_found":3,"mode":"FULL_REVIEW","commit":"e78622f7"}
+{"skill":"plan-eng-review","timestamp":"2026-04-19T08:42:51Z","status":"issues_open","unresolved":0,"critical_gaps":0,"issues_found":4,"mode":"SCOPE_REDUCED","commit":"93220001"}
+{"skill":"plan-eng-review","timestamp":"2026-04-22T01:20:47Z","status":"clean","unresolved":0,"critical_gaps":0,"issues_found":8,"mode":"SCOPE_REDUCED","commit":"fa98f234"}
+{"skill":"plan-eng-review","timestamp":"2026-04-22T01:20:54Z","status":"clean","unresolved":0,"critical_gaps":0,"issues_found":8,"mode":"SCOPE_REDUCED","commit":"fa98f234"}
+{"skill":"plan-eng-review","timestamp":"2026-04-22T07:23:39Z","status":"issues_open","unresolved":0,"critical_gaps":1,"issues_found":3,"mode":"SCOPE_REDUCED","commit":"b523e076"}
+{"skill":"plan-eng-review","timestamp":"2026-04-22T07:32:07Z","status":"clean","unresolved":0,"critical_gaps":0,"issues_found":0,"mode":"FULL_REVIEW","commit":"b523e076"}
+{"skill": "plan-eng-review", "timestamp": "2026-04-22T08:17:24Z", "status": "clean", "unresolved": 0, "critical_gaps": 0, "issues_found": 7, "mode": "FULL_REVIEW", "commit": "b523e076"}
+{"skill":"plan-eng-review","timestamp":"2026-04-23T00:46:15Z","status":"clean","unresolved":0,"critical_gaps":0,"issues_found":2,"mode":"FULL_REVIEW","commit":"0a5de1ec"}
+{"skill":"plan-eng-review","timestamp":"2026-04-23T07:43:07Z","status":"clean","unresolved":0,"critical_gaps":0,"issues_found":1,"mode":"FULL_REVIEW","commit":"61f2807a"}
+{"skill":"plan-eng-review","timestamp":"2026-04-23T07:47:48Z","status":"clean","unresolved":0,"critical_gaps":0,"issues_found":0,"mode":"FULL_REVIEW","commit":"05905de4"}
+{"skill":"plan-eng-review","timestamp":"2026-04-24T08:37:45Z","status":"issues_open","unresolved":0,"critical_gaps":3,"issues_found":21,"mode":"SCOPE_REDUCED","commit":"cf66f226"}
+{"skill":"plan-eng-review","timestamp":"2026-04-25T01:03:49Z","status":"issues_open","unresolved":0,"critical_gaps":2,"issues_found":13,"mode":"FULL_REVIEW","commit":"edd26420"}
+{"skill":"plan-eng-review","timestamp":"2026-04-29T00:59:36Z","status":"issues_open","unresolved":0,"critical_gaps":1,"issues_found":11,"mode":"FULL_REVIEW","commit":"560b095a"}
+{"skill":"plan-eng-review","timestamp":"2026-04-29T05:15:57Z","status":"issues_open","unresolved":0,"critical_gaps":1,"issues_found":20,"mode":"SCOPE_REDUCED","commit":"4051d9d1"}
