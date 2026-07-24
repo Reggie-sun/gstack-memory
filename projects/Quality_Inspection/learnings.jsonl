@@ -1,0 +1,1 @@
+{"skill":"browse","type":"operational","key":"qi_backend_full_suite","insight":"Run the backend suite from backend with python -m pytest against a fresh PostgreSQL database initialized by alembic upgrade head; the root-level pytest console entrypoint misses the app import path.","confidence":9,"source":"observed","ts":"2026-07-24T04:46:44.563Z","trusted":false}
